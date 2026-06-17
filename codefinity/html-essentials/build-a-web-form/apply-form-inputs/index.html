@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Information Form</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h2>User Information Form</h2>
 
+    <!-- Step 1: Provide correct `input` types for each case. -->
+
+    <!-- 
+      Step 2: Ensure that each input field has a unique `id` attribute
+      and each `<label>` element has a `for` attribute
+      that matches the `id` of its associated input field.
+     -->
+    <form onsubmit="return false">
+      <label for="name-field">Name:</label>
+      <!-- Add a text input -->
+      <input type="text" id="name-field" required name="name" /><br />
+
+      <label for="email-field">Email:</label>
+      <!-- Add an email input -->
+      <input type="email" id="email-field" required name="email" /><br />
+
+      <label for="password-field">Password:</label>
+      <!-- Add a password input -->
+      <input type="password" id="password-field" required name="password" /><br />
+
+      <label for="birthdate-field">Birth date:</label>
+      <!-- Add a date input -->
+      <input type="date" id="birthdate-field" required name="birthdate" /><br />
+
+      <button type="submit">Send form</button>
+    </form>
+
+    <!-- The script is added only for demonstration purposes -->
+    <script src="index.js"></script>
+  </body>
+</html>
