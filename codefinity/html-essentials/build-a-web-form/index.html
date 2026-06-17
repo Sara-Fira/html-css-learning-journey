@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Feedback Form</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>User Feedback Form</h1>
+    
+    <!-- Step 1: Create the form structure -->
+    <form onsubmit="return false">
+      <label for="name-field">Name:</label>
+      <input type="text" id="name-field" name="name" placeholder="Your name" required /><br />
+      <label for="comments-field">Comments:</label>
+      <input type="text" id="comments-field" name="comments" placeholder="Your feedback" required /><br />
+      
+      <!-- Step 2: Add a submit button -->
+      <button type="submit">Submit</button>
+    </form>
 
+    <!-- The script is added only for the demonstration purpose -->
+    <script src="index.js"></script>
+  </body>
+</html>
